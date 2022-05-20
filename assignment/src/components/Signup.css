@@ -1,0 +1,73 @@
+.signup {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .signupbox {
+    width: 80%;
+  margin-top: 40px;
+    flex-direction: row;
+    display: flex;
+    padding: 10px 0px;
+   
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 2px 22px -7px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 3px 2px 22px -7px rgba(0,0,0,0.8);
+    -moz-box-shadow: 3px 2px 22px -7px rgba(0,0,0,0.8);
+  }
+  .signupleft {
+    width: 50%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .signupright {
+    width: 50%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  /* .signupimage {
+    width: 100%;
+    height: 80%;
+    
+  } */
+  .signupimage img {
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
+  }
+  .signupcontent {
+    width: 80%;
+    
+    text-align: start;
+    flex-direction: column;
+  }
+  .signupcontent .heading {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .inputstyle input {
+   
+  height: 40px;
+    padding-bottom: 3px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 3px;
+  }
+  .radiocolumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .point:hover{
+    cursor: pointer;
+  }
+  
